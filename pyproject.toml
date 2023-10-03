@@ -66,8 +66,7 @@ test = [
 ]
 
 [[tool.hatch.envs.test.matrix]]
-python = ["py37", "py38", "py39", "py310", "py311"]
-type = ["default"]
+python = ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12"]
 
 [tool.hatch.envs.style]
 detached = true
